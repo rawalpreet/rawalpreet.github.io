@@ -917,7 +917,14 @@ footer {
     }
     
     .hero-image {
-        display: none; /* Hide illustrative placeholder on mobile */
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .image-placeholder {
+        width: 250px;
+        height: 250px;
     }
 
     .about-stats {
